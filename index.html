@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house" style="color: #ffffff;"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./assets/library_icon.png"></img>
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box box-two">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./assets/backward_icon.png">
+                    <img src="./assets/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="nav-badge nav-item hide">Explore Premium</button>
+                    <button class="nav-badge nav-item dark-badge"> <i class="fa-regular fa-circle-down" style="margin-right: 0.1rem;"></i> Install App</button>
+                    <i class="fa-regular fa-user user-icon"></i>
+                </div>
+            </div>
+
+            <div class="cards">
+                <h2>Recently Played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg" alt="" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks right ...</p>
+                    </div>
+                </div>
+
+                <h2>Trending now near you</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02353bcc1d0de7df6ec535b2c8" alt="" class="card-img">
+                        <p class="card-title">Nauvari</p>
+                        <p class="card-info">Sanju Rathod, G-Spark</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67706f00000002d6d48b11fd3b11da654c3519" alt="" class="card-img">
+                        <p class="card-title">Deep Focus</p>
+                        <p class="card-info">Keep calm and focus with ambient and ...</p>
+                    </div>
+                </div>
+
+                <h2>India's Best</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67706f00000002b8d7f9864f0c93a6287880b7" alt="" class="card-img">
+                        <p class="card-title">Tollywood Pearls</p>
+                        <p class="card-info">The finest set of Telugu music from...</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://seed-mix-image.spotifycdn.com/v6/img/two_thousands/1wRPtKGflJrBx9BmLsSwlU/en/default" alt="" class="card-img">
+                        <p class="card-title">2000s Mix</p>
+                        <p class="card-info">Pritam, Eminem, Salim–Sulaiman...</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02bf35774f0ca5e1c3cfb4c222" alt="" class="card-img">
+                        <p class="card-title">Mahiye Jinna...</p>
+                        <p class="card-info">Darshan Raval</p>
+                    </div>
+                </div>
+
+                <h2>Popular</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02da5032d24d5449fb0ae99bf8" alt="" class="card-img">
+                        <p class="card-title">Ved Lavlay</p>
+                        <p class="card-info">Ajay-Atul, Vishal Dadlani, Ajay Gogavale</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb3588d690bf252075abeba380/1/en/default" alt="" class="card-img">
+                        <p class="card-title">Daily Mix 1</p>
+                        <p class="card-info">Sanju Rathod, Keval Walanj, Harsh...</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e0222184598701ab40d70bf75a1" alt="" class="card-img">
+                        <p class="card-title">Naa Ready &#40;From...</p>
+                        <p class="card-info">Anirudh Ravichander, Thalapathy Vijay,...</p>
+                    </div>
+                </div>
+
+                <h2>Sound of India</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67706c0000da8436ea3a15c04a4b0821958ceb" alt="" class="card-img">
+                        <p class="card-title">The Sound of...</p>
+                        <p class="card-info">The songs that define, unite and distinguish...</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67706c0000da84ca51e0b1b2526295415ea0f7" alt="" class="card-img">
+                        <p class="card-title">The Sound of...</p>
+                        <p class="card-info">The songs that define, unite and distinguish...</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67706c0000da84fdad3548d41af616a7e8d64c" alt="" class="card-img">
+                        <p class="card-title">The Sound of Del...</p>
+                        <p class="card-info">The songs that define, unite and distinguish...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+
+        <div class="music-player">
+            <div class="album">
+                <img src="https://i.scdn.co/image/ab67616d00001e02353bcc1d0de7df6ec535b2c8" alt="Nauvari" class="music-player-img album-margin">
+                <div class="music-player-title album-margin">
+                    <h1 class="music-player-heading">Nauvari</h1>
+                    <p class="music-player-disc"><a href="">Sanju Rathod</a>,&nbsp;<a href="">G-Spark</a></p>
+                </div>
+                <i class="fa-regular fa-heart album-margin"></i>
+                <img src="./assets/Screenshot (16).jpg" class="music-player-img2">
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" alt="" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" alt="" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" alt="" class="player-control-icon" style="opacity: 1;height: 2rem;">
+                    <img src="./assets/player_icon4.png" alt="" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" alt="" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" name="" id="" min="0" max="100" step="1" class="progress-bar" value="0">
+                    <span class="total-time">03:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <img src="./assets/Screenshot (20).jpg" alt="" class="controls-icon">
+                <img src="./assets/Screenshot (18).jpg" alt="" class="controls-icon">
+                <img src="./assets/Screenshot (22).jpg" alt="" class="controls-icon">
+                <img src="./assets/Screenshot (23).jpg" alt="" class="controls-icon">
+                <img src="./assets/Screenshot (30).jpg" alt="" class="controls-icon">
+                <input type="range" name="" id="" min="0" max="100" value="100" class="controls-volume">
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
